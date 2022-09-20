@@ -15,9 +15,9 @@ body {
   color: var(--primary-text-color);
 }
 
-/* * {
+* {
   outline: 1px solid #9a1115;
-} */
+}
 
 /* Containers & Sections */
 
@@ -71,6 +71,9 @@ body {
   padding: 32px 0;
   color: var(--secondary-text-color);
 }
+.icon {
+  margin-right: 10px;
+}
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
@@ -101,7 +104,15 @@ body {
 }
 
 /* Hero Section */
-
+.hero.section {
+  padding: 200px 0;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .hero {
   background-color: var(--secondary-bg-color);
   text-align: center;
