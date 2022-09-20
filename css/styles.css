@@ -67,7 +67,8 @@ body {
   color: var(--primary-text-color);
 }
 .site-contacts .link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 32px 0;
   color: var(--secondary-text-color);
 }
