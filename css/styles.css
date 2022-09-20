@@ -199,7 +199,8 @@ body {
 /* About & Team Section */
 
 .about-heading,
-.team-heading {
+.team-heading,
+.costumers-heading {
   margin: 0px 0px 50px 0px;
   font-size: 36px;
   line-height: 1.16;
@@ -234,7 +235,7 @@ body {
 }
 .member-spec {
   margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 16px;
   font-weight: 400;
   color: var(--secondary-text-color);
 }
@@ -257,6 +258,7 @@ body {
   list-style: none;
   justify-content: center;
   padding-left: 0;
+  padding-bottom: 30px;
 }
 .social-item + .social-item {
   margin-left: 10px;
@@ -275,6 +277,34 @@ body {
 }
 .social-link:hover svg {
   fill: #ffffff;
+}
+
+/* Costumers */
+
+.costumers-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+}
+.costumer-item + .costumer-item {
+  margin-left: 30px;
+}
+.costumer-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.costumer-link:hover {
+  border: 1px solid var(--accent-text-color);
+}
+.costumer-link:hover svg {
+  fill: var(--accent-text-color);
 }
 
 /* Footer */
