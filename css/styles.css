@@ -249,6 +249,30 @@ body {
   background-color: var(--primary-bg-color);
   border-radius: 4px;
 }
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
+}
+.social-item + .social-item {
+  margin-left: 10px;
+}
+.social-link {
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link:hover {
+  background: var(--accent-text-color);
+}
+.social-link:hover svg {
+  fill: #ffffff;
+}
 
 /* Footer */
 
