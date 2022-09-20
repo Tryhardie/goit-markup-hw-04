@@ -74,6 +74,11 @@ body {
 }
 .icon {
   margin-right: 10px;
+  fill: currentColor;
+}
+.icon:hover,
+.icon:focus {
+  fill: var(--accent-text-color);
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
