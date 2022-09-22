@@ -357,10 +357,19 @@ body {
   color: var(--accent-text-color);
 }
 .footer-text {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
+}
+.footer-social .social-list {
+  margin-bottom: 0;
+  padding: 0;
+}
+.footer-social {
+  margin-left: 70px;
 }
 
 /* Portfolio btns & Image tiles*/
